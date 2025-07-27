@@ -1,0 +1,51 @@
+🔧 Prerequisites
+Before installing, ensure the following are available on your system:
+
+✅ Windows 10 or later
+✅ Python 3.9 or higher installed
+✅ Internet connection
+✅ Google Gemini API Key
+
+🛠️ Step-by-Step Installation
+1. 📦 Clone the Repository
+
+git clone https://github.com/your-username/ai-agent-windows.git
+cd ai-agent-windows
+Or Download ZIP and extract it.
+
+2. 🐍 Create a Virtual Environment (Recommended)
+
+python -m venv venv
+venv\Scripts\activate
+
+3. 🔄 Install Required Dependencies
+
+pip install -r requirements.txt
+
+4. 🔑 Set Up Your Gemini API Key
+Create a .env file in the project root and paste your API key:
+
+
+GOOGLE_API_KEY="--------------------"
+
+5. 🖥️ Run the Application
+
+python main.py
+
+6. 📌 (Optional) Create a Desktop Shortcut
+If you'd like the app to launch like a native Windows application:
+Right-click main.py → Send to > Desktop (Create Shortcut)
+Optionally, change the icon and name for a professional look.
+You can also use Auto PY to EXE to convert it to .exe.
+
+🤖 Features
+Professional UI with native Windows experience
+Works offline after setup
+Gemini-powered responses
+Lightweight and fast
+Customizable for your use case
+
+
+👨‍💻 Credits
+Developed by code.nick 💡
+Made with ❤️ using Python & Gemini API
